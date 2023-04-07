@@ -1,18 +1,14 @@
-Emoji Search
----
+# Emoji Search App's Testing
 
-Created with *create-react-app*. See the [full create-react-app guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
+This test code is written over a running app. You can reach original project on GitHub [here](https://github.com/ahfarmer/emoji-search).
 
+## Test Requirements
 
+1. Header should be rendered succesfully.
+2. Initial emoji list should be rendered when the page loads.
+3. Emoji list should be rendered according to search results.
+4. Whenever an emoji is clicked, it should be copied to the clipboard.
 
-Install
----
+### Test Result
 
-`npm install`
-
-
-
-Usage
----
-
-`npm start`
+![test result](/src/img/test-result.png)
